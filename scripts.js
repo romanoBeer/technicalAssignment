@@ -59,26 +59,6 @@ async function getAPI() {
     }
   }, 1000);
 
-  var numberOfOptions1 = parseInt(document.getElementById('input1').value);
-  var numberOfOptions2 = parseInt(document.getElementById('input2').value);
-  var numberOfOptions3 = parseInt(document.getElementById('input3').value);
-  var optionsPrice1;
-  var optionsPrice2;
-  var optionsPrice3
-  var optionsTotalPrice = 0;
-  var totalPrice;
-
-  optionsPrice1 = numberOfOptions1 * acc_price1;
-  optionsPrice2 = numberOfOptions2 * acc_price2;
-  optionsPrice3 = numberOfOptions3 * acc_price3;
-
-  optionsTotalPrice = optionsPrice1 + optionsPrice2 + optionsPrice3;
-
-  totalPrice = optionsTotalPrice + shipping_price;
-
-  document.getElementById('options-total-price').textContent = formatToCurrency(optionsTotalPrice);
-  document.getElementById('total-price').textContent = formatToCurrency(totalPrice);
-
   document.getElementById('up1').addEventListener("click", myFunction1);
 
   function myFunction1() {
