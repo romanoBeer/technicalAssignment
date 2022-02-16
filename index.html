@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+    <script type="text/javascript" src="scripts.js" async></script> 
+    <title>FE Technical Assignment</title>
+  </head>
+
+  <body>
+    <a class="image-link" href="https://fe-assignment.vaimo.net/product-images/quadcopter-drone-with-camera.jpg"><img class="image" id="image" src="assets/image.jpg"></a>
+    <div class="div1">
+      <div class="background1">
+        <p class="readytoship">Ready to Ship</p>
+      </div>
+      <div class="background2">
+        <p class="instock"><img src="assets/icons8-ok.png" alt=""> In Stock</p>
+      </div>
+      <div class="background3">
+        <p class="fastdispatch"><img src="assets/icons8-ok.png" alt=""> Fast Dispatch</p>
+      </div>
+      <h2 id="productName" class="h1"></h2>
+      <div class="background4">
+        <a id="tags" class="hotsaleproducts"></a>
+      </div>
+      <div class="row">
+        <img class="stars" src="assets/icons8-star_filled.png">
+        <img class="stars" src="assets/icons8-star_filled.png">
+        <img class="stars" src="assets/icons8-star_filled.png">
+        <img class="stars" src="assets/icons8-star_filled.png">
+        <img class="stars" src="assets/icons8-star_filled.png">
+      </div>
+      <div class="rating">
+        <p id="rating"></p>
+      </div>
+      <div class="reviews">
+        <p id="reviews" class="reviews"></p><p class="reviews2"> Reviews</p>
+      </div>
+      <div class="buyers">
+        <p id="buyers" class="buyers"></p><p class="buyers2">buyers</p>
+      </div>
+      <div class="background5">
+        <p class="price">R 78.50 - R 895.31</p>
+        <p class="option">/ Option</p>
+        <p class="payment-options">2 Options</p>
+        <p class="minorder">(Min.Order)</p>
+        <s class="canceledprice">R 98.12 - R 1,119.14</s>
+      </div>
+      <div class="background6">
+        <img class="logo" src="assets/Logo.png" alt="">
+        <p class="shipping">• Free shipping (up to $40)</p>
+        <p class="on-time-delivery">•  On-time delivery guaranteed</p>
+        <img class="forward" src="assets/icons8-forward.png" alt="">
+      </div>
+      <div class="background7">
+        <p id="discount-amount" class="discount"></p><p class="discount2">OFF </p>
+        <p class="discount-ends-in">Discount ends in</p>
+        <img class="clock" src="assets/icons8-clock.png" alt="">
+        <p id="countdown" class="discount-timer"></p>
+      </div>
+      <div class="background8">
+        <p class="acc-options">Options:</p>
+        <p id="acc-name-1" class="acc-name"></p>
+        <p id="acc-price-1" class="acc-price"></p>
+        <div class="counter">
+          <span id="down1" class="down" onClick='decreaseCount(event, this)'>-</span>
+          <input id = "input1" class="input" type="text" value="0">
+          <span id="up1" class="up" onClick='increaseCount(event, this)'>+</span>
+        </div>
+        <p class="acc-options"></p>
+        <p id="acc-name-2" class="acc-name"></p>
+        <p id="acc-price-2" class="acc-price"></p>
+        <div class="counter2">
+          <span id="down2" class="down" onClick='decreaseCount(event, this)'>-</span>
+          <input id = "input2" class="input" type="text" value="0">
+          <span id="up2" class="up" onClick='increaseCount(event, this)'>+</span>
+        </div>
+        <p class="acc-options"></p>
+        <p id="acc-name-3" class="acc-name"></p>
+        <p id="acc-price-3" class="acc-price"></p>
+        <div class="counter3">
+          <span id="down3" class="down" onClick='decreaseCount(event, this)'>-</span>
+          <input id = "input3" class="input" type="text" value="0">
+          <span id="up3" class="up" onClick='increaseCount(event, this)'>+ </span>
+        </div>
+      </div>
+      <div class="background9">
+        <img class="trade-assurance-image" src="assets/Icon.svg">
+        <p class="trade-assurance">Trade Assurance</p>
+        <p class="protects-your-alibab"> protects your Alibaba.com orders</p>
+      </div>
+      <div class="background10">
+        <p class="payments">Payments:</p>
+        <img class="visa-img" src="assets/icons8-visa.svg">
+        <img class="mastercard-img" src="assets/icons8-mastercard.svg">
+        <img class="applepay-img" src="assets/icons8-apple_pay.svg">
+      </div>
+      <div class="background11">
+        <p class="alibaba-com-logistic">Alibaba.com Logistics</p>
+        <p class="inspection-solutions">Inspection Solutions</p>
+      </div>
+    </div>
+    <div class="div2">
+      <p class="options-price">Options Price:</p>
+      <p id="options-total-price" class="options-total-price">R</p>
+      <p class="ship-to-south-africa">Ship to <u>South Africa<br>by Express UPS Sav…</u></p>
+      <p id="shipping-price" class="shipping-price"></p>
+      <p class="lead-time">Lead Time <b>10</b> days</p>
+      <img class="info-img1" src="assets/icons8-info.png">
+      <p class="shipping-time">Shipping time <b>6-10</b> days</p>
+      <img class="info-img2" src="assets/icons8-info.png">
+      <p class="total-price-tag">Total Price:</p>
+      <p id="total-price" class="total-price">R2000</p>
+      <a class="login-to-purchase" id = login-to-purchase>Login to purchase</a>
+      <a class="btn-contact-supplier">
+        <img class="envelope-img" src="assets/icons8-envelope.png">
+        <p class="contact-the-supplier">Contact the Supplier</p>
+      </a>
+    </div>
+  </body>
+
+  </html>
