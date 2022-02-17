@@ -721,7 +721,7 @@ body {
 
 @media (max-width: 500px) {
   .image {
-    width: 85%;
+    width: 110%;
     height: auto;
     position: absolute;
   }
@@ -791,7 +791,7 @@ body {
   }
 
   .div1 {
-    width: 80%;
+    width: 110%;
     height: auto;
     margin-left: 0px;
     margin-top: 400px;
@@ -804,7 +804,7 @@ body {
   }
 
   .forward {
-    margin-left: 80px;
+    margin-left: 50px;
   }
   
   .discount {
