@@ -721,7 +721,7 @@ body {
 
 @media (max-width: 500px) {
   .image {
-    width: 110%;
+    width: 100%;
     height: auto;
     position: absolute;
   }
@@ -735,7 +735,8 @@ body {
 
   .background4 {
     float: left;
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-left: 230px;
   }
 
   .background5 {
@@ -791,14 +792,14 @@ body {
   }
 
   .div1 {
-    width: 110%;
+    width: 100%;
     height: auto;
     margin-left: 0px;
     margin-top: 400px;
   }
   
   .div2 {
-    width: 27%;
+    width: 24%;
     margin-left: 0px;
     margin-top: 1050px;
   }
@@ -829,7 +830,7 @@ body {
   
   .acc-name {
     margin-left: 0px;
-    width: 168px;
+    width: 160px;
   }
   
   .acc-price {
@@ -837,15 +838,15 @@ body {
   }
   
   .counter {
-    margin-left: 255px;
+    margin-left: 220px;
   }
   
   .counter2 {
-    margin-left: 255px;
+    margin-left: 220px;
   }
   
   .counter3 {
-    margin-left: 255px;
+    margin-left: 220px;
   }
 
   .input {
@@ -857,13 +858,13 @@ body {
   }
 
   .info-img1 {
-    margin-left: -218px;
-    margin-top: 18px;
+    margin-left: -150px;
+    margin-top: 19px;
   }
 
   .info-img2 {
-    margin-left: 12px;
-    margin-top: 12px;
+    margin-left: 20px;
+    margin-top: 40px;
   }
 
   .login-to-purchase {
@@ -899,14 +900,20 @@ body {
   }
 
   .options-total-price {
-    margin-left: 300px;
+    margin-left: 250px;
   }
 
   .shipping-price {
-    margin-left: 300px;
+    margin-left: 250px;
+    margin-top: -30px;
   }
 
   .total-price {
-    margin-left: 300px
+    margin-left: 250px;
+  }
+
+  .shipping-time {
+    margin-top: 40px;
+
   }
 }
