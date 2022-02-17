@@ -101,6 +101,7 @@ body {
   color: #333333;
   font-family: Roboto;
   font-size: 16px;
+  font-weight: lighter;
   line-height: 24px;
   width: 526px;
   text-align: left;
@@ -491,6 +492,7 @@ body {
   line-height: 16px;
   text-align: left;
   float: left;
+  position: relative;
   margin-left: 5px;
   margin-top: 1px;
 }
@@ -719,7 +721,7 @@ body {
 
 @media (max-width: 500px) {
   .image {
-    width: 100%;
+    width: 85%;
     height: auto;
     position: absolute;
   }
@@ -733,43 +735,43 @@ body {
 
   .background4 {
     float: left;
-    margin-top: 40pt;
-    margin-left: 240px;
+    margin-top: 80px;
   }
 
   .background5 {
-    width: 95%;
+    width: 100%;
     height: auto;
     float: left;
     margin-top: 0px;
   }
 
   .background6 {
-    width: 95%;
+    width: 100%;
     height: auto;
     float: left;
   }
 
   .background8 {
-    width: 95%;
+    width: 100%;
     height: auto;
     float: left;
   }
 
   .background9 {
-    width: 306px;
+    width: 100%;
     height: 16px;
     margin-top: 24px;
   }
 
   .background11 {
     width: 100%;
-    margin-top: 390px;
+    margin-top: 420px;
   }
 
   .h1 {
     width: 100%;
     position: absolute;
+    font-size: 18px;
   }
 
   .on-time-delivery {
@@ -785,21 +787,40 @@ body {
   }
 
   .discount-timer {
-    float: left;
-    margin-top: 215px;
+    margin-top: 250px;
   }
 
   .div1 {
-    width: 100%;
-    position: absolute;
+    width: 80%;
+    height: auto;
     margin-left: 0px;
     margin-top: 400px;
   }
   
   .div2 {
-    width: 25%;
+    width: 27%;
     margin-left: 0px;
-    margin-top: 940px;
+    margin-top: 1050px;
+  }
+
+  .forward {
+    margin-left: 80px;
+  }
+  
+  .discount {
+    margin-top: 30px;
+  }
+  
+  .discount2 {
+    margin-top: 30px;
+  }
+  
+  .discount-ends-in {
+    margin-top: 30px;
+  }
+  
+  .clock {
+    margin-top: 30px;
   }
 
   .acc-options {
@@ -816,15 +837,15 @@ body {
   }
   
   .counter {
-    margin-left: 230px;
+    margin-left: 255px;
   }
   
   .counter2 {
-    margin-left: 230px;
+    margin-left: 255px;
   }
   
   .counter3 {
-    margin-left: 230px;
+    margin-left: 255px;
   }
 
   .input {
@@ -835,30 +856,57 @@ body {
     margin-left: 86px;
   }
 
-  .shipping-time {
-    margin-left: -250px;
-    margin-top: 100px;
-  }
-
   .info-img1 {
-    margin-left: -120px;
-    margin-top: 60px;
+    margin-left: -218px;
+    margin-top: 18px;
   }
 
   .info-img2 {
-    margin-left: -90px;
-    margin-top: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
   }
 
   .login-to-purchase {
-    width: 320px;
+    width: 86%;
   }
 
   .btn-contact-supplier {
-    width: 320px;
+    width: 86%;
   }
 
   .envelope-img {
     margin-left: 82px;
+  }
+
+  .trade-assurance-image {
+    margin-top: 25pt;
+  }
+  
+  .trade-assurance {
+    margin-top: 25pt;
+  }
+  
+  .protects-your-alibab {
+    margin-top: 25pt;
+  }
+  
+  .alibaba-com-logistic { 
+    margin-top: 60px;
+  }
+  
+  .inspection-solutions {   
+    margin-top: 60px;
+  }
+
+  .options-total-price {
+    margin-left: 300px;
+  }
+
+  .shipping-price {
+    margin-left: 300px;
+  }
+
+  .total-price {
+    margin-left: 300px
   }
 }
